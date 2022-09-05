@@ -1,0 +1,157 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    width: 1310px;
+    margin: 0 auto;
+}
+header{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+h1{
+    font-size: 40px;
+    color: #007d7b;
+    text-transform: uppercase;
+    float: left;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+nav li{
+    display: inline-flex;
+    position: relative;
+    left: 200px;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: #007d7b;
+}
+[href="#top"]{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 0px 20px;
+    text-align: center;
+    color: white;
+    background-color: #007d7b;
+}
+[href="#top"]:hover{
+    color: #007d7b;
+    background-color: #ffffff;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    height: 1850px;
+}
+section img{
+    width: 850px;
+    float: left;
+}
+#about, #gallery{
+    color: #000000;
+}
+#about{
+    position: relative;
+    left: 290px;
+}
+img + p{
+    text-align: right;
+    padding: 10px;
+}
+#gallery{
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+    color: #000000;
+}
+figure img{
+    width: 420px;
+    height: 281px;
+}
+img[src="Iran.png"], img[src="Ireland.png"], img[src="Italy.png"]{
+    height: 630px;
+}
+figure{
+    margin: 5px;
+    float: left;
+    position: relative;
+}
+figcaption{
+    float: left;
+    position: absolute;
+    top: 5px;
+}
+img[src="Guatemala.png"] + figcaption, img[src="Hawaii.png"] + figcaption,img[src="Ireland.png"] + figcaption, img[src="Italy.png"] + figcaption, img[src="Moab-Desert.png"] + figcaption, img[src="UK.png"] + figcaption, img[src="USA.png"] + figcaption, img[src="Wyoming.png"] + figcaption{
+    color: #ffffff;
+}
+img[src="Hawaii.png"] + figcaption, img[src="Moab-Desert.png"] + figcaption, img[src="UK.png"] + figcaption{
+    right: 30px;
+    top: 251px;
+}
+img[src="Ireland.png"] + figcaption{
+    right: 30px;
+    top: 600px;
+}
+img[src="Italy.png"] + figcaption{
+    top: 600px;
+}
+img[src="Switzerland.png"] + figcaption{
+    top: 251px;
+}
+form{
+    width: 850px;
+    color: #ffffff;
+    margin: 20px auto;
+}
+form h2{
+    text-align: center;
+}
+form p{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+label{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: left;
+}
+input{
+    display: block;
+    width: 830px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+::placeholder{
+    font-size: 16px;
+    color: #007d7b;
+}
+#mySubmit{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007d7b;
+    width: 400px;
+    height: 40px;
+    margin: 5px auto;
+    border-radius:10px;
+}
+footer{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
